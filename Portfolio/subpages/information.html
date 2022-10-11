@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en" class="h-100">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Michael Yang - Information</title>
+    <link href="../css/information_css.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body id="body" class="d-flex h-100">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+
+        <!-- nav bar -->
+        <header id="nav" class="mb-auto">
+            <div>
+                <h3 class="float-md-start mb-0">Michael Yang</h3>
+                <nav id="nav-links" class="nav-masthead justify-content-center float-md-end">
+                    <!-- use the top link for current pages -->
+                    <a class="nav-link fw-bold py-1 px-0" href="../index.html">Home</a>
+                    <a class="nav-link fw-bold py-1 px-0 active" aria-current="page"
+                        href="information.html">Information</a>
+                    <a class="nav-link fw-bold py-1 px-0" href="../downloads/master_resume.pdf" target="_blank"
+                        download="Michael Yang Resume">Resume</a>
+                    <a class="nav-link fw-bold py-1 px-0" href="#contactmodal" data-toggle="modal"
+                        data-target="#contactmodal">Contact</a>
+                    <a class="nav-link fw-bold py-1 px-0" href="https://github.com/myang5128/projects"
+                        target="_blank">GitHub</a>
+                </nav>
+            </div>
+
+            <div class="modal fade" id="contactmodal" tabindex="-1" role="dialog" aria-labelledby="contactmodal"
+                aria-hidden="true">
+
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Contact Information</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+
+                        <div class="modal-body">
+                            Email: <a href="mailto:myang@vassar.edu" target="_blank">myang@vassar.edu</a>
+                            </br>
+                            LinkedIn: <a href="https://www.linkedin.com/in/michael-yang-9b46b6208/"
+                                target="_blank">Click
+                                Here</a>
+                            </br>
+                            Instagram: <a href="https://www.instagram.com/_notmikey_/" target="_blank">Click Here</a>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="closeModal btn btn-secondary" data-dismiss="modal">
+                                Close
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+
+        <!-- central focus -->
+        <main id="main_body" class="px-3">
+            <h1>Information</h1>
+            <p id="updated">Last updated: 10/9/2022</p>
+            <img src="../pictures/profile_pic.jpg" alt="Profile Picture" id="picture">
+            <p id="info" class="lead">
+                &emsp; Hi! I am Michael Yang, a Junior Computer Science major at Vassar College. I went to a technical
+                high school for biotechnology. Throughout
+                my academic career, both college and high school, I held leadership roles and responsibilities that
+                correlated with the roles.
+                </br>&emsp; During high school, I acted as the treasurer for the biotechnology club where I oversawed
+                all financial transactions and fundraising events. I was also the safety manager where I managed all the
+                safety aspects
+                of chemicals and storage. During my senior year, I volunteered to be a chemistry tutor and teacher
+                assistant for the underclassmen.
+                At Vassar, I am the vice president, and formerly secretary, of the Vassar Chemical Society. Here, I play
+                a pivotal role in transforming
+                the organization from what it was in the past to a far more reaching and influential organization on
+                campus. I am also leading a future project
+                that plans to educate the board members and other students on crystallization by allowing them to
+                physically see and manipulate the crystallization
+                process themselves. As the vice president, I also play an active role with meeting with professors and
+                other campus organizations alongside
+                the president.
+                </br>&emsp; In June 2019, I had the opportunity to work alongside a postdoctural student with his
+                semiconductor research. I created and prepared
+                silicon samples every day for testing. I also assisted a physics professor with developing a sapphire
+                lens that would later be used in his laser
+                magnifcation project. During this time, I reported our results to other peer researchers and professors.
+                </br>&emsp; In my free time, I'm usually working on my Dungeons and Dragons campaign or on some of my
+                various web projects or learning languages
+                through Udemy. I taught myself HTML, CSS, JavaScript through Udemy this past summer and by creating and
+                designing projects, it has
+                allowed me to express myself and learn more about web design and construction. Currently, I am trying to
+                finish my projects and host them
+                through GitHub. The projects include this portfolio website, a Dungeons and Dragons compendium, and a
+                text-based choose-your-adventure game.
+                </br>&emsp; If you want to learn more, my resume and contact information are attached.
+            </p>
+
+            <!-- modal for resume -->
+            <div id="resume_modal_div">
+
+                <button id="resumebutton" type="button" class="btn btn-primary" data-toggle="modal"
+                    data-target="#resumemodal">
+                    View Resume!
+                </button>
+
+                <button id="contactmodalbutton" type="button" class="btn btn-primary" data-toggle="modal"
+                    data-target="#contactmodal">
+                    Contact Information!
+                </button>
+
+                <div class="modal fade" id="resumemodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+
+                    <div class="modal-dialog modal-xl" role="document">
+                        <div class="modal-content">
+
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Resume</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+
+                            <div class="modal-body">
+                                <img id="image" src="../pictures/resume.jpg" alt="Click on button" />
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="closeModal btn btn-secondary" data-dismiss="modal">
+                                    Close
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <!-- footer -->
+        <footer id="footer" class="mt-auto fw-bold text-center">
+            <p>
+                Michael Yang |
+                Email:
+                <a href="mailto:myang@vassar.edu" target="_blank">myang@vassar.edu</a>
+                | LinkedIn:
+                <a href="https://www.linkedin.com/in/michael-yang-9b46b6208/" target="_blank">Click Here</a>
+                | Instagram:
+                <a href="https://www.instagram.com/_notmikey_/" target="_blank">Click Here</a>
+            </p>
+        </footer>
+
+        <!-- extra scripts -->
+        <script src="../js/information_js.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+            </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+            </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+            </script>
+    </div>
+</body>
