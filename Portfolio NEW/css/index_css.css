@@ -1,0 +1,112 @@
+#body {
+    background-color: rgb(0, 38, 87);
+    color: rgb(153, 197, 255);
+    margin: 0;
+    font-family: baskerville, serif;
+}
+
+/* nav */
+#nav {
+    display: block;
+    padding-bottom: .5rem;
+    border-bottom: .05rem solid black;
+}
+
+#nav h3 {
+    display: block;
+    margin-top: 0;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: .20rem;
+    margin-bottom: 0rem;
+    padding-bottom: 0;
+}
+
+#nav-links {
+    margin-top: 0rem;
+    padding-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav-link {
+    display: block;
+    font-size: 1rem;
+    text-decoration: none;
+    color: rgb(0, 62, 143);
+}
+
+.nav-masthead .active {
+    color: rgb(153, 197, 255);
+    border-bottom: 0.20rem solid rgb(153, 197, 255);
+    font-size: 1.1rem;
+}
+
+.nav-masthead .nav-link+.nav-link {
+    margin-left: 1rem;
+}
+
+#nav-links .nav-link:hover,
+#nav-links .nav-link:focus {
+    border-bottom: .18rem solid rgb(153, 197, 255);
+    background-color: rgba(153, 197, 255, .75);
+    color: rgb(0, 38, 87);
+    font-size: 1.1rem;
+}
+
+/* focus */
+main {
+    display: block;
+}
+
+/* button */
+#button {
+    background-color: rgb(0, 38, 87);
+    color: rgb(153, 197, 255);
+    border-color: rgb(0, 8, 20);
+    padding: 1.15rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 1.2rem;
+}
+
+#button:hover {
+    background-color: rgb(153, 197, 255);
+    color: rgb(0, 38, 87);
+    font-size: 1.5rem;
+    box-shadow: 0px 0px .8rem -.1rem rgb(153, 197, 255);
+}
+
+/* footer */
+#footer p {
+    color: rgb(153, 197, 255);
+    font-size: .8rem;
+    padding-top: .5rem;
+    border-top: .05rem solid black;
+}
+
+#footer a {
+    text-decoration: none;
+    color: rgb(65, 130, 214);
+}
+
+/* modal resume/contact */
+.modal .closeModal {
+    background-color: rgb(0, 38, 87);
+    border: none;
+}
+
+#contactmodal {
+    color: black;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+}
+
+#contactmodal a {
+    color: rgb(65, 130, 214);
+}

@@ -1,0 +1,172 @@
+#body {
+    background-color: rgb(0, 19, 45);
+    color: rgb(153, 197, 255);
+    margin: 0;
+    font-family: baskerville, serif;
+}
+
+/* nav */
+#nav {
+    display: flexbox;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    border-bottom: .05rem solid black;
+    position: relative;
+}
+
+#nav h3 {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 3rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: .20rem;
+    text-align: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.nav-link {
+    margin-top: .5rem;
+    display: flex;
+    font-size: 1rem;
+    text-decoration: none;
+    color: rgb(0, 62, 143);
+    margin-left: 1rem;
+    width: fit-content;
+}
+
+.nav-link:focus {
+    border-bottom: .18rem solid rgb(153, 197, 255);
+    color: rgb(0, 38, 87);
+    font-size: 1.1rem;
+}
+
+.navbar .active {
+    color: rgb(153, 197, 255);
+    border-bottom: 0.20rem solid rgb(153, 197, 255);
+    font-size: 1.2rem;
+}
+
+.navbar .nav-link+.nav-link {
+    margin-left: 1rem;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    border-bottom: .18rem solid rgb(153, 197, 255);
+    background-color: rgba(153, 197, 255, .75);
+    color: rgb(0, 38, 87);
+    font-size: 1.1rem;
+}
+
+/* main */
+#main_body {
+    border-radius: 5px;
+    background-color: white;
+    height: 80%;
+    color: black;
+    padding: 1rem;
+    overflow-y: auto;
+    line-height: 1.5rem;
+    color: rgb(0, 19, 45);
+}
+
+#main_body h1 {
+    text-align: center;
+    letter-spacing: .3rem;
+}
+
+#date_updated {
+    text-align: center;
+    font-style: italic;
+}
+
+#picture {
+    float: right;
+    display: flex;
+    width: 12rem;
+    height: 14em;
+    border-radius: 35%;
+    margin: .8rem;
+    border: 2px solid rgb(0, 19, 45);
+}
+
+#subheader {
+    border-bottom: 1.5px solid rgb(0, 19, 45);
+    display: inline-flex;
+    width: auto;
+}
+
+#subinfolink {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: rgb(0, 62, 143);
+}
+
+#subinfolink:hover {
+    font-size: 1.75rem;
+    color: rgb(65, 130, 214);
+}
+
+/* modal resume/contact */
+.modal #image {
+    width: 100%;
+}
+
+#resume_modal_div {
+    text-align: center;
+}
+
+#resumebutton,
+#contactmodalbutton {
+    background-color: rgb(0, 38, 87);
+    color: rgb(153, 197, 255);
+    border-color: rgb(0, 8, 20);
+    padding: 1.15rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 1.2rem;
+}
+
+#resumebutton:hover,
+#contactmodalbutton:hover {
+    background-color: rgb(153, 197, 255);
+    color: rgb(0, 38, 87);
+    font-size: 1.2rem;
+    box-shadow: 0px 0px 1rem -.1rem rgb(153, 197, 255);
+}
+
+#resumebutton+#contactmodalbutton {
+    margin-left: 2rem;
+}
+
+.modal .closeModal {
+    background-color: rgb(0, 38, 87);
+    border: none;
+}
+
+#contactmodal {
+    color: rgb(0, 19, 45);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: rgba(153, 197, 255, .25);
+}
+
+#contactmodal a {
+    color: rgb(65, 130, 214);
+}
+
+/* footer */
+#footer p {
+    color: rgb(153, 197, 255);
+    font-size: .8rem;
+    padding-top: .5rem;
+    border-top: .05rem solid black;
+}
+
+#footer a {
+    text-decoration: none;
+    color: rgb(65, 130, 214);
+}
