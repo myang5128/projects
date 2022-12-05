@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=APlayer
+comment0.text=\n\ The\ parent\ class\ of\ players\n
+comment1.params=
+comment1.target=APlayer()
+comment1.text=\n\ Empty\ default\ constructor\n
+comment2.params=game\ symbol
+comment2.target=APlayer(Game,\ char)
+comment2.text=\n\ Default\ APLAYER\ constructor\ that\ contains\ the\ game\ that\ the\ players\ are\ in\ and\ the\ symbol\ of\ the\ players\n\ \n\ @param\ game\ the\ game\ that\ the\ players\ are\ in\n\ @param\ symbol\ the\ symbol\ of\ the\ players\n
+comment3.params=
+comment3.target=char\ getSymbol()
+comment3.text=\n\ Returns\ the\ symbol\ of\ the\ players\n\ \n\ @return\ the\ symbol\ of\ the\ players\n
+comment4.params=
+comment4.target=Move\ pickMove()
+comment4.text=\n\ default\ method\ of\ finding\ the\ moves\n\ \n\ @return\ null\n
+numComments=5

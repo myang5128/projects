@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=GameStats
+comment0.text=\n\ Class\ representing\ the\ stats\ of\ TicTacToe\n
+comment1.params=
+comment1.target=GameStats()
+comment1.text=\n\ Creates\ the\ GameStats\ object\ and\ sets\ the\ initial\ values\ of\ losses,\ ties,\ and\ wins\ to\ 0\n
+comment2.params=
+comment2.target=void\ recordWin()
+comment2.text=\n\ When\ called,\ increment\ wins\ by\ 1\n
+comment3.params=
+comment3.target=void\ recordTie()
+comment3.text=\n\ When\ called,\ increment\ ties\ by\ 1\n
+comment4.params=
+comment4.target=void\ recordLoss()
+comment4.text=\n\ When\ called,\ increment\ losses\ by\ 1\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\n\ A\ string\ representation\ of\ the\ player's\ stats\n\ \n\ @return\ a\ string\ representation\ of\ the\ player's\ stats\n
+numComments=6

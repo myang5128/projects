@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Move
+comment0.text=\n\ Represents\ the\ Move\ class\ that\ contains\ the\ board's\ row\ and\ column\ placement\n
+comment1.params=row\ col
+comment1.target=Move(int,\ int)
+comment1.text=\n\ Creates\ the\ Move\ object\ that\ sets\ the\ row\ and\ column\ to\ whatever\ they're\ called\ respectively\n\ \n\ @param\ row\ the\ row\ argument\n\ @param\ col\ the\ column\ argument\n
+comment2.params=
+comment2.target=int\ getRow()
+comment2.text=\n\ Returns\ the\ row\ that\ is\ argued\n\ \n\ @return\ the\ row\ that\ is\ argued\n
+comment3.params=
+comment3.target=int\ getCol()
+comment3.text=\n\ Returns\ the\ column\ that\ is\ argued\n\ \n\ @return\ the\ column\ that\ is\ argued\n
+numComments=4

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=HumanPlayer
+comment0.text=\n\ APlayer\ subclass\ that\ represents\ the\ HumanPlayer\n
+comment1.params=game\ symbol
+comment1.target=HumanPlayer(Game,\ char)
+comment1.text=\n\ Creates\ the\ HumanPlayer\ object\n\ \n\ @param\ game\ represents\ the\ game\ that\ the\ humanPlayer\ is\ in\n\ @param\ symbol\ represents\ the\ humanPlayer's\ symbol\ (X)\n
+comment2.params=
+comment2.target=Move\ pickMove()
+comment2.text=\n\ Method\ that\ allows\ input\ from\ the\ user\ for\ the\ humanPlayer\n\ Only\ allows\ two\ characters\ that\ are\ both\ valid\n\ \n\ @return\ null,\ if\ the\ user\ inputted\ quit\n\ @return\ move,\ if\ the\ move\ is\ valid\ \n
+numComments=3

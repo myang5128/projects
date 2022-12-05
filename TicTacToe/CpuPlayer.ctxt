@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=CpuPlayer
+comment0.text=\n\ APlayer\ subclass\ that\ represents\ the\ CPU\n
+comment1.params=game\ symbol
+comment1.target=CpuPlayer(Game,\ char)
+comment1.text=\n\ Creates\ the\ CpuPlayer\ object\ \n\ \n\ @param\ game\ represents\ the\ game\ that\ the\ cpuPlayer\ is\ in\n\ @param\ symbol\ represents\ the\ cpuPlayer's\ symbol\ (O)\n
+comment2.params=
+comment2.target=Move\ pickMove()
+comment2.text=\n\ Method\ that\ randomly\ picks\ a\ valid\ spot\ for\ the\ CPU\n\ \n\ @return\ the\ move\ that\ is\ picked\n
+numComments=3
